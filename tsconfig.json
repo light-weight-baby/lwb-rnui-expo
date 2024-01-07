@@ -15,7 +15,7 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@app/*": ["src/*/index", "src/*"]
+      "@app/*": ["doodoo/*/index", "doodoo/*"]
     }
   },
   "exclude": [

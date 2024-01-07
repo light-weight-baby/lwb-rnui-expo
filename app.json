@@ -1,35 +1,20 @@
 {
   "expo": {
-    "name": "Expo Starter",
-    "slug": "expo-starter",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "scheme": "lwyb",
     "userInterfaceStyle": "automatic",
-    "scheme": "myapp",
     "splash": {
+      "backgroundColor": "#ddffe2",
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "contain"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "io.batyr.expo-starter"
-    },
+    "icon": "./assets/icon.png",
+    "name": "lwyb-expo",
+    "slug": "lwyb-expo",
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      },
-      "package": "io.batyr.expostarter"
+      "package": "com.lightweightbaby"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": ["expo-localization"]
+    "ios": {
+      "bundleIdentifier": "com.lightweightbaby"
+    }
   }
 }

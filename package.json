@@ -2,6 +2,7 @@
   "name": "LWB",
   "version": "1.0",
   "description": "LWB",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start --dev-client",
     "start:dc": "npx expo start --dev-client",
