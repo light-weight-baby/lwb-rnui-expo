@@ -1,9 +1,7 @@
 {
-  "name": "expo-starter",
-  "version": "6.3.0",
-  "description": "Production-ready starter for Expo (React Native) App! Powered by cli-rn, React Navigation (v6), RN UI lib, Mobx, Reanimated 2, Dark Mode, Localization, and much more.",
-  "author": "Batyr <dev@batyr.io> (https://github.com/kanzitelli)",
-  "homepage": "https://github.com/kanzitelli/expo-starter",
+  "name": "LWB",
+  "version": "1.0",
+  "description": "LWB",
   "scripts": {
     "start": "expo start --dev-client",
     "start:dc": "npx expo start --dev-client",
@@ -28,7 +26,7 @@
     "ios": "expo run:ios"
   },
   "dependencies": {
-    "@kanzitelli/if-component": "^0.3.0",
+    "@expo-google-fonts/inter": "^0.2.3",
     "@react-native-async-storage/async-storage": "1.17.11",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-native-picker/picker": "2.4.8",
@@ -40,10 +38,13 @@
     "@shopify/flash-list": "1.4.0",
     "date-fns": "^2.29.3",
     "expo": "~48.0.21",
+    "expo-app-loading": "^2.1.1",
     "expo-dev-client": "~2.2.1",
+    "expo-font": "^11.6.0",
     "expo-image": "~1.0.0",
     "expo-linking": "~4.0.1",
     "expo-localization": "~14.1.1",
+    "expo-router": "^2.0.14",
     "expo-splash-screen": "~0.18.2",
     "expo-status-bar": "~1.4.4",
     "expo-updates": "~0.16.4",
@@ -63,9 +64,7 @@
     "react-native-screens": "~3.20.0",
     "react-native-ui-lib": "^7.2.1",
     "react-native-web": "~0.18.10",
-    "rn-bounceable": "^1.2.0",
-    "rn-navio": "^0.0.7",
-    "yup": "^1.0.2"
+    "rn-bounceable": "^1.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
@@ -82,11 +81,17 @@
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
     "babel-plugin-module-resolver": "^5.0.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.4",
+    "conventional-changelog-conventionalcommits": "5.0.0",
     "dotenv-cli": "^7.0.0",
     "eslint": "7.14.0",
     "prettier": "^2.8.4",
     "release-it": "^15.6.0",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
   },
   "resolutions": {
     "@types/react": "18.0.0",
@@ -96,12 +101,8 @@
     "react",
     "react-native",
     "react-navigation",
-    "react-native-starter",
-    "react-native-template",
     "expo",
-    "expo-modules",
-    "expo-starter",
-    "expo-template"
+    "expo-modules"
   ],
   "license": "MIT"
 }
