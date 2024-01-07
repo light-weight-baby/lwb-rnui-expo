@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {getNavio} from '@app/navio';
+import {getNavio} from 'doodoo/navio';
 import {OnLaunchService} from './onLaunch';
 import {TranslateService} from './translate';
 import {ApiService} from './api';

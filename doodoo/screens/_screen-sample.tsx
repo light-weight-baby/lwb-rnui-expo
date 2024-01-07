@@ -5,9 +5,9 @@ import {observer} from 'mobx-react';
 import {useNavigation, useRoute} from '@react-navigation/native';
 import {NavioScreen} from 'rn-navio';
 
-import {services, useServices} from '@app/services';
-import {useAppearance} from '@app/utils/hooks';
-import {NavioSection} from '@app/components/sections/NavioSection';
+import {services, useServices} from 'doodoo/services';
+import {useAppearance} from 'doodoo/utils/hooks';
+import {NavioSection} from 'doodoo/components/sections/NavioSection';
 
 export type Params = {
   type?: 'push' | 'show';

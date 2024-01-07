@@ -1,7 +1,7 @@
 import * as Localization from 'expo-localization';
 import {I18n, Scope, TranslateOptions} from 'i18n-js';
 
-import {stores} from '@app/stores';
+import {stores} from 'doodoo/stores';
 import * as translations from './translations';
 
 export class TranslateService implements IService {

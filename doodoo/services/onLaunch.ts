@@ -1,6 +1,6 @@
 import * as Font from 'expo-font';
-import {IconComponent} from '@app/components/icon';
-import {stores} from '@app/stores';
+import {IconComponent} from 'doodoo/components/icon';
+import {stores} from 'doodoo/stores';
 
 export class OnLaunchService implements IService {
   private inited = false;

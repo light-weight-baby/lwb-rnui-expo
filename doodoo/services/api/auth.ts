@@ -1,5 +1,5 @@
-import {sleep} from '@app/utils/help';
-import {Auth$Login$Response} from '@app/utils/types/api';
+import {sleep} from 'doodoo/utils/help';
+import {Auth$Login$Response} from 'doodoo/utils/types/api';
 
 export class AuthApi {
   login = async (): Promise<Auth$Login$Response> => {

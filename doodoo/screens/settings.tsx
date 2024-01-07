@@ -5,8 +5,8 @@ import {observer} from 'mobx-react';
 import {useNavigation} from '@react-navigation/native';
 import {NavioScreen} from 'rn-navio';
 
-import {Section} from '@app/components/section';
-import {Row} from '@app/components/row';
+import {Section} from 'doodoo/components/section';
+import {Row} from 'doodoo/components/row';
 import {
   appearances,
   appearancesUI,
@@ -14,11 +14,11 @@ import {
   languages,
   languagesUI,
   languageUIToInternal,
-} from '@app/utils/types/enums';
-import {useAppearance} from '@app/utils/hooks';
-import {useStores} from '@app/stores';
-import {HeaderButton} from '@app/components/button';
-import {services} from '@app/services';
+} from 'doodoo/utils/types/enums';
+import {useAppearance} from 'doodoo/utils/hooks';
+import {useStores} from 'doodoo/stores';
+import {HeaderButton} from 'doodoo/components/button';
+import {services} from 'doodoo/services';
 
 export const Settings: NavioScreen = observer(({}) => {
   useAppearance();

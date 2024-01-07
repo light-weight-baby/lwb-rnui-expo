@@ -5,12 +5,12 @@ import {ScrollView} from 'react-native-gesture-handler';
 import {Bounceable} from 'rn-bounceable';
 import {If} from '@kanzitelli/if-component';
 
-import {useStores} from '@app/stores';
-import {useServices} from '@app/services';
-import {useAppearance} from '@app/utils/hooks';
-import {Row} from '@app/components/row';
-import {Icon, IconName} from '@app/components/icon';
-import {Section} from '@app/components/section';
+import {useStores} from 'doodoo/stores';
+import {useServices} from 'doodoo/services';
+import {useAppearance} from 'doodoo/utils/hooks';
+import {Row} from 'doodoo/components/row';
+import {Icon, IconName} from 'doodoo/components/icon';
+import {Section} from 'doodoo/components/section';
 import {Alert} from 'react-native';
 
 type SectionData = {

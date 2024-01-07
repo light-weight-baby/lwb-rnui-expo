@@ -4,8 +4,8 @@ import {observer} from 'mobx-react';
 import {useNavigation} from '@react-navigation/native';
 import {NavioScreen} from 'rn-navio';
 
-import {services, useServices} from '@app/services';
-import {useAppearance} from '@app/utils/hooks';
+import {services, useServices} from 'doodoo/services';
+import {useAppearance} from 'doodoo/utils/hooks';
 import {FlashList} from '@shopify/flash-list';
 import {Image} from 'expo-image';
 import {Bounceable} from 'rn-bounceable';

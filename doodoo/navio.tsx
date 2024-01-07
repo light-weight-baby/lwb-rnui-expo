@@ -1,20 +1,20 @@
 import {Navio} from 'rn-navio';
 
-import {Main} from '@app/screens/main';
-import {Playground} from '@app/screens/playground';
-import {PlaygroundFlashList} from '@app/screens/playground/flash-list';
-import {PlaygroundExpoImage} from '@app/screens/playground/expo-image';
-import {Settings} from '@app/screens/settings';
-import {Example} from '@app/screens/_screen-sample';
+import {Main} from 'doodoo/screens/main';
+import {Playground} from 'doodoo/screens/playground';
+import {PlaygroundFlashList} from 'doodoo/screens/playground/flash-list';
+import {PlaygroundExpoImage} from 'doodoo/screens/playground/expo-image';
+import {Settings} from 'doodoo/screens/settings';
+import {Example} from 'doodoo/screens/_screen-sample';
 
-import {useAppearance} from '@app/utils/hooks';
+import {useAppearance} from 'doodoo/utils/hooks';
 import {
   screenDefaultOptions,
   tabScreenDefaultOptions,
   getTabBarIcon,
   drawerScreenDefaultOptions,
-} from '@app/utils/designSystem';
-import {services} from '@app/services';
+} from 'doodoo/utils/designSystem';
+import {services} from 'doodoo/services';
 import {AuthLogin} from './screens/auth/login';
 
 // NAVIO

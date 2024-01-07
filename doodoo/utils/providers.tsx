@@ -1,7 +1,7 @@
 import React, {PropsWithChildren} from 'react';
 
-import {ServicesProvider} from '@app/services';
-import {StoresProvider} from '@app/stores';
+import {ServicesProvider} from 'doodoo/services';
+import {StoresProvider} from 'doodoo/stores';
 
 /**
  * `AppProvider` contains providers for stores and services to have access to them inside screens.

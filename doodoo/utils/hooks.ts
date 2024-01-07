@@ -2,9 +2,9 @@ import {useState} from 'react';
 import {useColorScheme} from 'react-native';
 import {reaction} from 'mobx';
 
-import {stores} from '@app/stores';
-import {services} from '@app/services';
-import {configureDesignSystem} from '@app/utils/designSystem';
+import {stores} from 'doodoo/stores';
+import {services} from 'doodoo/services';
+import {configureDesignSystem} from 'doodoo/utils/designSystem';
 
 // put this hook into any component which you'd like to keep in sync with appearance
 // for example, Main screen or list item component

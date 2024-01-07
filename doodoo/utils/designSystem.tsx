@@ -6,9 +6,9 @@ import {StatusBarStyle} from 'expo-status-bar';
 import {Appearance as RNAppearance, Platform} from 'react-native';
 import {Colors, Typography} from 'react-native-ui-lib';
 
-import {stores} from '@app/stores';
-import {Icon, IconName} from '@app/components/icon';
-import {Appearance} from '@app/utils/types/enums';
+import {stores} from 'doodoo/stores';
+import {Icon, IconName} from 'doodoo/components/icon';
+import {Appearance} from 'doodoo/utils/types/enums';
 
 // =============
 // | RN UI Lib |

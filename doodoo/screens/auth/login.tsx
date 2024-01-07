@@ -5,10 +5,10 @@ import {View, Text, Colors} from 'react-native-ui-lib';
 import {observer} from 'mobx-react';
 import {NavioScreen} from 'rn-navio';
 
-import {useStores} from '@app/stores';
-import {useServices} from '@app/services';
-import {useAppearance} from '@app/utils/hooks';
-import {BButton} from '@app/components/button';
+import {useStores} from 'doodoo/stores';
+import {useServices} from 'doodoo/services';
+import {useAppearance} from 'doodoo/utils/hooks';
+import {BButton} from 'doodoo/components/button';
 
 export type Props = {
   type?: 'push';

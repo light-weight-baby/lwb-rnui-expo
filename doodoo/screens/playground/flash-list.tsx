@@ -4,12 +4,12 @@ import {observer} from 'mobx-react';
 import {useNavigation} from '@react-navigation/native';
 import {NavioScreen} from 'rn-navio';
 
-import {services, useServices} from '@app/services';
-import {useAppearance} from '@app/utils/hooks';
-import {randomStr} from '@app/utils/help';
+import {services, useServices} from 'doodoo/services';
+import {useAppearance} from 'doodoo/utils/hooks';
+import {randomStr} from 'doodoo/utils/help';
 import {FlashList} from '@shopify/flash-list';
 import {Image} from 'expo-image';
-import {Row} from '@app/components/row';
+import {Row} from 'doodoo/components/row';
 import formatRelative from 'date-fns/formatRelative';
 import subDays from 'date-fns/subDays';
 

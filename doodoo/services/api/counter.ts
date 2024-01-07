@@ -1,5 +1,5 @@
 // import {stores} from 'stores';
-import {Counter$Get$Response} from '@app/utils/types/api';
+import {Counter$Get$Response} from 'doodoo/utils/types/api';
 
 export class CounterApi {
   get = async (): Promise<Counter$Get$Response> => {

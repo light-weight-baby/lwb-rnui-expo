@@ -7,17 +7,17 @@ import {StatusBar} from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
-import {NavioApp} from '@app/navio';
+import {NavioApp} from 'doodoo/navio';
 import {
   configureDesignSystem,
   getNavigationTheme,
   getStatusBarBGColor,
   getStatusBarStyle,
-} from '@app/utils/designSystem';
-import {hydrateStores} from '@app/stores';
-import {initServices} from '@app/services';
-import {AppProvider} from '@app/utils/providers';
-import {useAppearance} from '@app/utils/hooks';
+} from 'doodoo/utils/designSystem';
+import {hydrateStores} from 'doodoo/stores';
+import {initServices} from 'doodoo/services';
+import {AppProvider} from 'doodoo/utils/providers';
+import {useAppearance} from 'doodoo/utils/hooks';
 
 LogBox.ignoreLogs([
   'Require',
