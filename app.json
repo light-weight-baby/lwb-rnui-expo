@@ -15,6 +15,11 @@
     },
     "ios": {
       "bundleIdentifier": "com.lightweightbaby"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bc1eb647-e0ec-41f6-988e-85f5c96be95d"
+      }
     }
   }
 }

@@ -5,7 +5,7 @@ import {Bounceable} from 'rn-bounceable';
 type Props = Modifiers.MarginModifiers &
   Modifiers.FlexModifiers & {
     label?: string;
-    onPress?: PureFunc;
+    onPress?: any;
     size?: 'medium' | 'small';
   };
 
