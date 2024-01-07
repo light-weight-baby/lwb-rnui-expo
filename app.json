@@ -1,35 +1,45 @@
 {
   "expo": {
-    "name": "Expo Starter",
-    "slug": "expo-starter",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "scheme": "lwyb",
+    "name": "lwyb-expo",
+    "slug": "lwyb-expo",
+    "extra": {
+      "eas": {
+        "projectId": "bc1eb647-e0ec-41f6-988e-85f5c96be95d"
+      }
+    }
+    ,"orientation": "portrait",
+    "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "automatic",
-    "scheme": "myapp",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "io.batyr.expo-starter"
+      "bundleIdentifier": "com.lightweightbaby"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       },
-      "package": "io.batyr.expostarter"
+      "package": "com.lightweightbaby"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
     },
-    "plugins": ["expo-localization"]
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
