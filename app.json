@@ -1,25 +1,45 @@
 {
   "expo": {
     "scheme": "lwyb",
-    "userInterfaceStyle": "automatic",
-    "splash": {
-      "backgroundColor": "#ddffe2",
-      "image": "./assets/splash.png",
-      "resizeMode": "contain"
-    },
-    "icon": "./assets/icon.png",
     "name": "lwyb-expo",
     "slug": "lwyb-expo",
-    "android": {
-      "package": "com.lightweightbaby"
-    },
-    "ios": {
-      "bundleIdentifier": "com.lightweightbaby"
-    },
     "extra": {
       "eas": {
         "projectId": "bc1eb647-e0ec-41f6-988e-85f5c96be95d"
       }
+    }
+    ,"orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lightweightbaby"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.lightweightbaby"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
