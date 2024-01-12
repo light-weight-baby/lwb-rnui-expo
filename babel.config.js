@@ -1,10 +1,10 @@
-module.exports = function (api) {
-  api.cache(true);
-  return {
-    presets: ['babel-preset-expo'],
-    plugins: [
-      // Required for expo-router
-      'expo-router/babel',
-    ],
-  };
+module.exports = {
+  env: {
+    test: {
+      presets: ['module:metro-react-native-babel-preset'],
+      plugins: ['react-native-reanimated/plugin']
+    }
+  },
+  presets: ['module:metro-react-native-babel-preset'],
+  plugins: ['react-native-reanimated/plugin']
 };
